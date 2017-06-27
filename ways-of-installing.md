@@ -12,6 +12,15 @@ Any commentary I provide is also biased toward the academic/research envirionmen
 
 Unless you're being told to use something specific by an instructor or boss, then there is no one right answer for which tool to use.  Try a bunch out and go with the one that you like the most.  Also remember that it is normal for experienced users to have multiple tools that we utilize to match the task.  Your multiple tools should fall along a use spectrum from experimental, to light weight, to heavy development.
 
+# IDNGAF and don't want to read all this crap
+
+Don't worry, I feel you.
+
+1. Be sure to install anaconda (see Step 1 and Appendix 1 for testing).
+2. Just download PyCharm Education edition (see Appendix 2 for connecting it to anaconda).  
+3. You might want to read my notes on Spyder and Jupyter Notebooks if you're in the data game.
+4. Happy coding 😎
+
 # I don't want/can't install things on this computer
 
 This is the Not Fun pathway, but sometimes you have no choice.
@@ -88,15 +97,6 @@ You'll start interacting with Anaconda more directly once you need to start doin
 ## Step 2:  Pick an IDE and install it
 
 Refer to the Grand Trio of Tools section to decide on which might work the best.
-
-# IDNGAF and don't want to read all this crap
-
-Don't worry, I feel you.
-
-1. Be sure to install anaconda (see Step 1 and Appendix 1 for testing).
-2. Just download PyCharm Education edition (see Appendix 2 for connecting it to anaconda).  
-3. You might want to read my notes on Spyder and Jupyter Notebooks if you're in the data game.
-4. Happy coding 😎
 
 # The Grand Trio of Tools
 
