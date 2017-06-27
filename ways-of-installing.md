@@ -12,6 +12,59 @@ Any commentary I provide is also biased toward the academic/research envirionmen
 
 Unless you're being told to use something specific by an instructor or boss, then there is no one right answer for which tool to use.  Try a bunch out and go with the one that you like the most.  Also remember that it is normal for experienced users to have multiple tools that we utilize to match the task.  Your multiple tools should fall along a use spectrum from experimental, to light weight, to heavy development.
 
+# I don't want/can't install things on this computer
+
+This is the Not Fun pathway, but sometimes you have no choice.
+
+There are several ways to write/run Python online if you are in a position where installation just isn't working for you, or you don't have admin rights and can't install things.  The grand caveat here:  all these tools are either very new or very free, which yields some buggy, fussy, or broken behavior.  You may end up having to pay for a cloud service if this limitation will really be long term.
+
+Getting access to a command line/interpreter based Python is pretty easily.  However, finding a tool that allows you to edit a script file and have a pleasant experience with running it is harder to find.
+
+Here are some tools that I've used and like:
+
+1. [Python Anywhere](https://www.pythonanywhere.com)
+	* Pros: 
+		* lots of console options, including full bash and variety of SQL console support
+		* upload/download of files straight forward
+		* a totally-good-enough-to-start free account
+		* cool extras if you get a paid account
+	* Cons:
+		* has Python script editing interface, but running the script in the same window is clunky
+		* interface can be confusing for beginners, so requires very specific directions
+2. [Repl.it](https://repl.it)
+	* Pros:
+		* writing/running script interface is pretty clean/straight forward
+		* easy to share repls.
+		* can make classrooms and assignments
+	* Cons:
+		* uploading data files feels like a hack (this is a new feature when I tested it, so it may be improved later on)
+3. [Trinket](https://trinket.io)
+	* Pros:
+		* Good for encapsulating small programs into executable/editable scripts
+		* Nice sharing options
+		* These embed nicely into webpages or HTML presentations
+	* Cons:
+		* Not a replacement for an actual development envirionment, need to pay for Python 3
+4. [My Binder](http://mybinder.org/)
+	* This one is a little different.  You can create a github repo with Jupyter Notebooks and set it up in My Binder to have a live version of the notebooks launched in the cloud.  
+	* Pros:
+		* Free
+		* Links to your data and packages well
+	* Cons:
+		* Requires set up on the instructor side
+		* I've found it too unstable to depend on in the classroom, but their support model is very grassroots.
+5. [Microsoft Azure Notebooks](https://notebooks.azure.com/)
+	* Another cloud based Jupyter Notebook system
+	* Pros:
+		* works well if you literally only have just a self contained notebook to run and play with
+		* More stable than My Binder
+	* Cons:
+		* You can upload data files that will only persist a long as the container is active.  So you'll likely have to upload evertime, which isn't great for a classroom situation.
+		* Looks like it's free so long as you have a microsoft or 360 account
+
+There are, of course, options for self hosting cloud things, and there may be campus services if you have an affiliation.  But as I mentioned, the options here are passable but not glorious.
+
+
 # Basic installation framework
 
 At a very high level, you're going to have to install two things to work with Python:  Python itself and a tool for interacting with Python.  There are some built in methods of interacting with Python, and they'll work in a pinch, but most people will choose to use additional tools as their primary form of writing in Python.
