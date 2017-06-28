@@ -100,6 +100,14 @@ You'll start interacting with Anaconda more directly once you need to start doin
 
 Refer to the Grand Trio of Tools section to decide on which might work the best.
 
+## Step 3: Test and connect things
+
+This step will depend on what you've installed and how, so follow any directions you've been given to do so.
+
+## Step 4: Go code stuff and feel good
+
+🐍
+
 # Why do you need a specific tool?
 
 We're very used to conducting our writing and document creation in things like Word or Google Docs, but that isn't the right tool for the job here.  Those programs are designed to create highly formatted text content for humans.  While you still have to interact with code as a human and that reading experience is important, you're creating code documents to send off the computer.  So you need to write your scripts in plain text.
