@@ -1,16 +1,18 @@
-# Ways of installing Python
+# Ways of installing Python for beginners
 
-I find myself having to go over methods of installing Python over and over, so I'm going to document as many as I can in this notebook.  Each installation method should be in a separate section so instructors can link to whichever one you are supposed to you.  However, if you are on your own, I'll try to provide some guidance.
+I find myself having to go over methods of installing Python over and over, so I'm going to document my usual recommendations here.  Each installation method should be in a separate section so instructors can link to whichever one you are supposed to you.  However, if you are on your own, I'll also try to provide some guidance.
 
 ## The hedges
 
-This is not going to attempt to be a corpus of every possible method, tool, or program, so there will be omissions some purposeful some becuase I don't know about it.  I'm going to focus in the tools that I usually mention to my students first, and may add some in later.  Reminder here that I teach beginners, so I'm sticking very general and not going into advanced tools that these systems might provide.
+This document is not an attempt to be a corpus of every possible method, tool, or program related to Python.  There will be omissions both purposeful and accidental.  I'm focused here on the tools that I usually mention to my students first, and may add some in later.  I teach beginners to programming, so I'm sticking with general discussion of tools and avoiding discussion of advanced features.  If you want advanced discussion of which editor handles VCS the best, then you don't need this guide or you aren't one of my students.
 
 Any commentary I provide is also biased toward the academic/research envirionment and not meant to speak toward full development shops. They have their own needs and can speak for themselves.
 
-## There is no right answer
+## There is no One True answer
 
-Unless you're being told to use something specific by an instructor or boss, then there is no one right answer for which tool to use.  Try a bunch out and go with the one that you like the most.  Also remember that it is normal for experienced users to have multiple tools that we utilize to match the task.  Your multiple tools should fall along a use spectrum from experimental, to light weight, to heavy development.
+Unless you're being told to use something specific by an instructor or boss, then there is no one right answer for which tool to use.  Try a bunch out and go with the one that you like the most. It is normal for experienced coders to have multiple tools that are utilized to match the task at hand.  
+
+Having a single tool when first starting out is absolutely fine!  Getting used to one tool at a time is important.  Eventually I hope you have Opinions about that tool, which may sway you to change tools or add another into your tool chest.  As a starting framework, I suggest that your preferred tools should fall along a use spectrum from experimental, to light weight, to heavy development.
 
 # IDNGAF and don't want to read all this crap
 
@@ -98,12 +100,28 @@ You'll start interacting with Anaconda more directly once you need to start doin
 
 Refer to the Grand Trio of Tools section to decide on which might work the best.
 
+# Why do you need a specific tool?
+
+We're very used to conducting our writing and document creation in things like Word or Google Docs, but that isn't the right tool for the job here.  Those programs are designed to create highly formatted text content for humans.  While you still have to interact with code as a human and that reading experience is important, you're creating code documents to send off the computer.  So you need to write your scripts in plain text.
+
+### What is plain text?
+
+This is the difference between a .txt file a a .docx file.  Plain text documents are just the characters literally written into the file.  No formatting or other fanciness.  Whereas Microsoft Word and Google Docs are optimized for formatting and writing formatted documents, plain text documents are the content stripped of all that.  You can open a plain text file in pretty much any document reader, but you can only open a Word document in specific programs.
+
+Plain text is important when writing code because there's a lot of secret sauce behind how content is displayed in a Word document versus plain text.  That extra content introduces a lot of invisible garbage that will break any tool trying to do stuff with that program.  You need that plain literal text for your scripts.  Some of those script files are transformed in further ways, but they also need to start out as plain text.  This is why you should never attempt to write Python code or any other programming code in Word or another formatted document editor.  It is technically possible, but is a deeply unfortunate experience.
+
+### Plain text doesn't mean plain tools
+
+The text documents you're writing with your code may be "plain" text, but the tools good at doing so are anything but! There's a lot of value add in tools that are aware of the language that you are writing.  They can help watch out for errors, and perform a lot of common but fussy tasks.  Think about making webpages or writing blog posts for something like Wordpress, you certainly could bust out the HTML and write it all by hand, but having a tool that can automatically generate error free templates for you saves you time and cognitive power you need for the task at hand.
+
+The selection of writing tools that you prefer to work with is completely up to you!  What's important when you're first starting out is playing around with them and seeing how they fit into your workflow.  Many developers have very strong opinions about which tools and services they prefer in the writing experience, which you are welcome to accept or reject as you like.
+
 # The Grand Trio of Tools
 
 This is at least how I like to think about it, and you're welcome to disagree.  I usually recommend having three levels tools in mind for use:
 
 1. The "heavy" tool, an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) that you like and can help you keep track of things in a large project.  This may start as your sole tool as you're learning Python and can use the help of an IDE and then you start incorporating other tools as you get more advanced skills.
-2. The light weight tool, which is likely just an advanced plain text editor rather than a full IDE. This tool is good for short/simple programs, or for code you need to have running for days on end (e.g. web scraping or large processing tools).
+2. The "light" tool, which is likely just an advanced plain text editor rather than a full IDE. This tool is good for short/simple programs, or for code you need to have running for days on end (e.g. web scraping or large processing tools).
 3. An interactive tool for experimentation, exploration, testing proof of concepts, etc.
 
 I encourage you to have a combination of 1 & 3 or 2 & 3 depending on your preferences.  Some full IDEs also have interactive Python tools built in, so a single program might satisfy 1 & 3.  I will provide recommendations for each category.
@@ -202,8 +220,26 @@ Not to just dump a bunch of links in here, but that's exactly what I'm about to 
 * Wingware (http://www.wingware.com/)
 	* They also have Wing 101 for beginners, which is a minimal editor for beginners: http://www.wingware.com/downloads/wingide-101
 
-## 
+## Lighter weight editors
 
+These editors are usually just fancy plain text editors that have specialized features for interacting with code and may even be able to run the code for you.  Most of these perform just as well as any other, so just pick one and roll with it.  I'm not going to get deep into these discussions of each because of that, but these are ordered in my own personal preference order.  There is an order here, but all these tools are commonly used and very good. You're very welcome to disagree with my preferences 😀
+
+* [Sublime Text Editor](https://www.sublimetext.com/)
+* [Atom Editor](https://atom.io/)
+* [Text Wrangler](https://www.barebones.com/products/textwrangler/)
+	* Mac only
+* [Notepad++](https://notepad-plus-plus.org/)
+	* Windows only
+
+## Interactive tool
+
+This one is pretty easy, becuase you don't need a very feature rich environment, and there are some stock options built into your Python installation.  The interactive tools are great for when you're checking out data types interact, just doing quick tests if packages will import correctly, etc.  Some programs, like PyCharm, have a Python console built in, so that's an easy choice.  Others, like Jupyter Notebooks, are natively interactive, so that may be sufficient (but caution, it can add clutter to your notebooks or mess up your local variables).
+
+There are three choices here:
+
+1.  Use the stock command line Python instance, which is also IDLE but not an application.  You can follow the directions in Appendix 1 to access this program, and it does require a bit of command line work.  This will be your better choice if you're working with specific environments and have conda or PyPI packages installed.
+2.  As an improvement to stock IDLE, use IPython.  This should be automaically included with your Anaconda installation, and is accessed the same way as regular IDLE (in option 1).  Instead of typing `python` you type in `ipython`.  This environment has lots of extra tools, and copy/pasting multiple lines of code plays niceer in this environment.  This is the one that I recommend.
+3. Use the IDLE application.  When you download the Python application from [Python.org](https://www.python.org/downloads/) it'll effectively be this.  This is a completely sufficient, if limited, environment to work in. This option that the bonus of being a regular program you can double click to open, and avoid working in the command line. Caution: this option will not be connected to your anaconda installation or any conda envirionments you make, so your PyPI or conda installed packages will not be available (this is technically possible, but so fussy that it isn't worth the headache).
 
 # Appendix 1: Testing your Python installation
 
