@@ -6,7 +6,7 @@ I find myself having to go over methods of installing Python over and over, so I
 
 This document is not an attempt to be a corpus of every possible method, tool, or program related to Python.  There will be omissions both purposeful and accidental.  I'm focused here on the tools that I usually mention to my students first, and may add some in later.  I teach beginners to programming, so I'm sticking with general discussion of tools and avoiding discussion of advanced features.  If you want advanced discussion of which editor handles VCS the best, then you don't need this guide or you aren't one of my students.
 
-Any commentary I provide is also biased toward the academic/research envirionment and not meant to speak toward full development shops. They have their own needs and can speak for themselves.
+Any commentary I provide is also biased toward the academic/research environment and not meant to speak toward full development shops. They have their own needs and can speak for themselves.
 
 ## There is no One True answer
 
@@ -55,9 +55,9 @@ Here are some tools that I've used and like:
 		* Nice sharing options
 		* These embed nicely into webpages or HTML presentations
 	* Cons:
-		* Not a replacement for an actual development envirionment, need to pay for Python 3
+		* Not a replacement for an actual development environment, need to pay for Python 3
 4. [My Binder](http://mybinder.org/)
-	* This one is a little different.  You can create a github repo with Jupyter Notebooks and set it up in My Binder to have a live version of the notebooks launched in the cloud.  
+	* This one is a little different.  You can create a GitHub repo with Jupyter Notebooks and set it up in My Binder to have a live version of the notebooks launched in the cloud.  
 	* Pros:
 		* Free
 		* Links to your data and packages well
@@ -70,8 +70,8 @@ Here are some tools that I've used and like:
 		* works well if you literally only have just a self contained notebook to run and play with
 		* More stable than My Binder
 	* Cons:
-		* You can upload data files that will only persist a long as the container is active.  So you'll likely have to upload evertime, which isn't great for a classroom situation.
-		* Looks like it's free so long as you have a microsoft or 360 account
+		* You can upload data files that will only persist a long as the container is active.  So you'll likely have to upload every time, which isn't great for a classroom situation.
+		* Looks like it's free so long as you have a Microsoft or 360 account
 
 There are, of course, options for self hosting cloud things, and there may be campus services if you have an affiliation.  But as I mentioned, the options here are passable but not glorious.
 
@@ -82,7 +82,7 @@ At a very high level, you're going to have to install two things to work with Py
 
 ## Step 1:  Install Python itself
 
-I'm going to keep this simple: unless you're being told otherwise, just use Anaconda with the most recept version of Python (e.g. avoid the 2.x versions).
+I'm going to keep this simple: unless you're being told otherwise, just use Anaconda with the most recent version of Python (e.g. avoid the 2.x versions).
 
 1. Go here: https://www.continuum.io/downloads
 2. Download the visual installer for Python 3.6 (or above).
@@ -94,7 +94,7 @@ I'm going to keep this simple: unless you're being told otherwise, just use Anac
 
 Anaconda provides an installation of Python in your system, but you don't usually directly interact with Anaconda to write Python. You will use specific editor tools to write Python, and those tools are connected (in a variety of ways) to your installation of Python.  Thus, those tools will launch Python and execute the code.  So the installation of Anaconda is necessary, even if it doesn't look like you'll be using it.
 
-You'll start interacting with Anaconda more directly once you need to start doing more advanced envirionment managment, and is the subject for many tutorials and documentation that is not necesary to repeat here.
+You'll start interacting with Anaconda more directly once you need to start doing more advanced environment management, and is the subject for many tutorials and documentation that is not necessary to repeat here.
 
 ## Step 2:  Pick an IDE and install it
 
@@ -132,7 +132,7 @@ For example, my personal trio is:
 	* PyCharm education edition for large processing scripts and instruction
 	* Jupyter Notebooks for data exploration/munging
 2. Sublime Text Editor
-	* For large webscraping projects to run for ages or when I'm writing a one-off tool.
+	* For large web scraping projects to run for ages or when I'm writing a one-off tool.
 3. IPython
 	* Interactive console that I will use in conjunction with 1 or 2 to experiment or check how data types interact.
 
@@ -140,13 +140,13 @@ For example, my personal trio is:
 
 **Don't forget that you'll also want to install Python via anaconda before installing an IDE!**
 
-There are many full IDEs for Python, so if you care about a specific feature to be present in an IDE, I suggest you search for that feature among lists of IDEs.  I aim to keep this list short becuase when you're a beginner long lists can be difficult to navigate.
+There are many full IDEs for Python, so if you care about a specific feature to be present in an IDE, I suggest you search for that feature among lists of IDEs.  I aim to keep this list short because when you're a beginner long lists can be difficult to navigate.
 
 Summary:
 
 1.  Are you doing scientific python?
 	* Yes:  Spyder or Jupyter Notebooks (try both see which works the best for your projects)
-2.  Are you doing data anlysis/science and want the pandas things to be pretty?
+2.  Are you doing data analysis/science and want the pandas things to be pretty?
 	* Yes:  Jupyter Notebooks
 3.  Are you just getting started with programming?
 	* Yes: likely PyCharm Edu or Wing 101 will suit you the best, presuming that you're using traditional educational materials.  You might want to do Jupyter Notebooks if you're going down the data analysis track.
@@ -180,7 +180,7 @@ I usually have my students use PyCharm Education edition because it:
 
 Links: http://pythonhosted.org/spyder/
 
-This is not an evironment I've used much, but some people really like it.  This is an IDE designed for scientific computing, and will feel very similar to RStudio or Matlab.
+This is not an environment I've used much, but some people really like it.  This is an IDE designed for scientific computing, and will feel very similar to RStudio or Matlab.
 
 * Pros
 	* Free and comes as part of the anaconda installation
@@ -189,18 +189,18 @@ This is not an evironment I've used much, but some people really like it.  This 
 	* Works very nicely with plots/data viz
 	* Will feel very comfortable to an R or Matlab switcher
 * Cons
-	* Can be resource intesnsive, so not great for smaller computers
+	* Can be resource intensive, so not great for smaller computers
 	* Requires command line to launch, which not all users will have permissions to do
 	* Interface might be cluttered to some newcomers
 	* Not as many syntax error warnings as PyCharm
 
 ### Jupyter Notebooks
 
-Some will argue that this isn't a 'real' IDE, and my response to that is "I don't care." I don't need to repeat any of the glory of Jupyter Notebooks for data analyis, and there are other great tutorials worth spending time with if you like this.
+Some will argue that this isn't a 'real' IDE, and my response to that is "I don't care." I don't need to repeat any of the glory of Jupyter Notebooks for data analysis, and there are other great tutorials worth spending time with if you like this.
 
 * Pros:
 	* Interactive exploration
-	* Many tools automatically display nicer in the notebook envirionment
+	* Many tools automatically display nicer in the notebook environment
 	* Heavily used and the standard tool in some scientific/data communities.
 	* Easily sharable analytics
 	* Inline data viz
@@ -210,7 +210,7 @@ Some will argue that this isn't a 'real' IDE, and my response to that is "I don'
 	* Best for solo work, shared editing not awesome yet
 	* Not quite plain text (it's giant json), so you have to interact with it rendered in a web browser
 		* there are ways to export it out to HTML for easy sharing, but that's static and not interactive
-	* The cell interaction can be confusing to some beginners and allows for accidental non-linear traps if y ou aren't prepared
+	* The cell interaction can be confusing to some beginners and allows for accidental non-linear traps if you aren't prepared
 
 ### Others I haven't used
 
@@ -233,13 +233,13 @@ These editors are usually just fancy plain text editors that have specialized fe
 
 ## Interactive tool
 
-This one is pretty easy, becuase you don't need a very feature rich environment, and there are some stock options built into your Python installation.  The interactive tools are great for when you're checking out data types interact, just doing quick tests if packages will import correctly, etc.  Some programs, like PyCharm, have a Python console built in, so that's an easy choice.  Others, like Jupyter Notebooks, are natively interactive, so that may be sufficient (but caution, it can add clutter to your notebooks or mess up your local variables).
+This one is pretty easy, because you don't need a very feature rich environment, and there are some stock options built into your Python installation.  The interactive tools are great for when you're checking out data types interact, just doing quick tests if packages will import correctly, etc.  Some programs, like PyCharm, have a Python console built in, so that's an easy choice.  Others, like Jupyter Notebooks, are natively interactive, so that may be sufficient (but caution, it can add clutter to your notebooks or mess up your local variables).
 
 There are three choices here:
 
 1.  Use the stock command line Python instance, which is also IDLE but not an application.  You can follow the directions in Appendix 1 to access this program, and it does require a bit of command line work.  This will be your better choice if you're working with specific environments and have conda or PyPI packages installed.
-2.  As an improvement to stock IDLE, use IPython.  This should be automaically included with your Anaconda installation, and is accessed the same way as regular IDLE (in option 1).  Instead of typing `python` you type in `ipython`.  This environment has lots of extra tools, and copy/pasting multiple lines of code plays niceer in this environment.  This is the one that I recommend.
-3. Use the IDLE application.  When you download the Python application from [Python.org](https://www.python.org/downloads/) it'll effectively be this.  This is a completely sufficient, if limited, environment to work in. This option that the bonus of being a regular program you can double click to open, and avoid working in the command line. Caution: this option will not be connected to your anaconda installation or any conda envirionments you make, so your PyPI or conda installed packages will not be available (this is technically possible, but so fussy that it isn't worth the headache).
+2.  As an improvement to stock IDLE, use IPython.  This should be automatically included with your Anaconda installation, and is accessed the same way as regular IDLE (in option 1).  Instead of typing `python` you type in `ipython`.  This environment has lots of extra tools, and copy/pasting multiple lines of code plays nicer in this environment.  This is the one that I recommend.
+3. Use the IDLE application.  When you download the Python application from [Python.org](https://www.python.org/downloads/) it'll effectively be this.  This is a completely sufficient, if limited, environment to work in. This option that the bonus of being a regular program you can double click to open, and avoid working in the command line. Caution: this option will not be connected to your anaconda installation or any conda environments you make, so your PyPI or conda installed packages will not be available (this is technically possible, but so fussy that it isn't worth the headache).
 
 # Appendix 1: Testing your Python installation
 
@@ -253,12 +253,12 @@ There are three choices here:
 	* `[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin`
 	* `Type "help", "copyright", "credits" or "license" for more information.`
 	* `>>> `
-	* (ed note: doing blockquote code in lists sucks in markdown)
+	* (ed note: doing block quote code in lists sucks in markdown)
 4. Presuming everything described here as worked, you can close the window. This was just a test.
 
 # Appendix 2:  Hooking PyCharm to your anaconda environment
 
-These directions presume that you have successfully installed Anaconda (or some other Python envirionment) into your computer.  Review Appendix 1 for directions.
+These directions presume that you have successfully installed Anaconda (or some other Python environment) into your computer.  Review Appendix 1 for directions.
 
 1.  Download (Available here:  https://www.jetbrains.com/pycharm-edu/download/) and or other PyCharm edition that you'd like.
 2. Open the application.
@@ -267,7 +267,7 @@ These directions presume that you have successfully installed Anaconda (or some 
 5. In **Location**:  this is where you're going to save your project files.  You're going to be presented with a file path that ends with Untitled.  You can click the *...* button next to it to navigate to another folder.  Then change Untitled to something reasonable, but leave the rest of the path in place.
 6. Under that is **Interpreter**:  Click the drop down and let it populate with things.  It might take a few seconds to find your anaconda.  You should select the path that has 'anaconda' in it.
 	* Windows:  you might only see one option, which will be the anaconda bath.
-	* Mac:  you will see paths that will say 2.6 or 2.7 and one will likely be selected by default.  It'll have System/Library/Frameworks at the beginning of the path.  You need to find the Anaconda path, which should be something like `~/anaconda/bin/python`.  This is the one that you want (or the relevant anaconda envirionment that you created elsewhere).  
+	* Mac:  you will see paths that will say 2.6 or 2.7 and one will likely be selected by default.  It'll have System/Library/Frameworks at the beginning of the path.  You need to find the Anaconda path, which should be something like `~/anaconda/bin/python`.  This is the one that you want (or the relevant anaconda environment that you created elsewhere).  
 7.  **Be sure that you are selecting a 3.x version of Python!** Yes, it matters.
 8. Once you have set the correct path and Python, click Create.
 9. Now you're in the project view for PyCharm.  On the left is your project file directory, and you have a gray screen which is where your scripts will appear when you have some.
