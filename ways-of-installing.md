@@ -234,6 +234,7 @@ These editors are usually just fancy plain text editors that have specialized fe
 
 * [Sublime Text Editor](https://www.sublimetext.com/)
 * [Atom Editor](https://atom.io/)
+* [Visual Studio Code](https://code.visualstudio.com/)
 * [Text Wrangler](https://www.barebones.com/products/textwrangler/)
 	* Mac only
 * [Notepad++](https://notepad-plus-plus.org/)
@@ -255,7 +256,9 @@ There are three choices here:
 2. Open your command line/prompt.
 	* Windows users:  open up your Command Prompt application (in your system search bar, type in 'cmd' and an application will open up.  YouTube has videos explaining this more if you need it.
 	* Mac users:  open your Terminal application. Either search via spotlight for 'terminal' or open it from Applications -> Utilities -> Terminal.
-3. 	Within your command line application, type in ‘python’ (without quotes) and press return.  	* Windows users:  you should not get an error that it doesn’t know what Python is.	* Mac users:  it should state it is Python 3.6 (or whatever anaconda said it was) and not Python 2.7
+3. 	Within your command line application, type in ‘python’ (without quotes) and press return.  
+	* Windows users:  you should not get an error that it doesn’t know what Python is.
+	* Mac users:  it should state it is Python 3.6 (or whatever anaconda said it was) and not Python 2.7
 	* Should have text roughly like the text below.
 	* `Python 3.6.1 |Anaconda 4.4.0 (x86_64)| (default, May 11 2017, 13:04:09) `
 	* `[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin`
